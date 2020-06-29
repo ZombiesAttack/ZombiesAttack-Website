@@ -62,12 +62,13 @@
     animation: animate 8s linear infinite;
 }
 @keyframes animate {
-    text-decoration: none;
     0% {
         background-position: 0%;
+        text-decoration: none;
     }
     100% {
         background-position: 400%;
+        text-decoration: none;
     }
 }
 .download:before {
