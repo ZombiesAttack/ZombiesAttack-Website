@@ -58,9 +58,11 @@
     border-radius: 30px;
 }
 .download:hover {
+    text-decoration: none;
     animation: animate 8s linear infinite;
 }
 @keyframes animate {
+    text-decoration: none;
     0% {
         background-position: 0%;
     }
@@ -69,6 +71,7 @@
     }
 }
 .download:before {
+    text-decoration: none;
     content: '';
     position: absolute;
     top: -5px;
@@ -84,6 +87,7 @@
     transition: 0.5s;
 }
 .download:hover:before {
+    text-decoration: none;
     filter: blur(20px);
     opacity: 1;
     animation: animate 8s linear infinite;
