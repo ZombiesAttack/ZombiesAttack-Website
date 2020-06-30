@@ -94,3 +94,7 @@
     opacity: 1;
     animation: animate 8s linear infinite;
 }
+
+.changelog {
+    font-size: 30px;
+}
